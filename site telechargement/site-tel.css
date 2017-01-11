@@ -1,0 +1,222 @@
+
+body{
+
+ background-image: url("file:///Users/guillaumebruno/Desktop/MAMP/htdocs/dev/perso/site%20telechargement/img/fond.jpg");
+
+width: 100%;
+cursor: url("file:///Users/guillaumebruno/Desktop/MAMP/htdocs/dev/perso/site%20telechargement/img/rocket.png"), auto;
+
+}
+
+#logos{
+background-color: 'yellow';
+position: absolute;
+background-image: url("http://site-telechargement.org/affiche/logo.png");
+width: 600px;
+height: 200px;
+background-repeat: no-repeat; 
+margin-left: 150px;
+
+}
+
+#barre-de-recherche{
+
+position: absolute;
+background-image: url("http://www.site-telechargement.org/wp-content/themes/st/images/searchform-bg.png");
+width: 300px;
+height: 200px;
+background-repeat: no-repeat; 
+margin-left: 850px;
+top: 0px;
+
+}
+
+#bouton{
+
+position: absolute;
+
+background-image: url("http://www.site-telechargement.org/wp-content/themes/st/images/search-btn.png");
+width: 50px;
+height: 50px;
+background-repeat: no-repeat; 
+margin-left: 1110px;
+
+
+
+}
+#menu{
+position: relative;
+
+background-image: url("http://www.site-telechargement.org/wp-content/themes/st/images/content-top-bg.png");
+width: 750px;
+height: 25px;
+background-repeat: repeat; 
+top: 115px;
+margin-left: 150px;
+border-radius: 5px 5px 0px 0px;
+
+
+}
+ul {
+
+    border-radius: 5px 5px 0px 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+  margin-left: 20px;
+    display: block;
+    color: white;
+   
+    padding: 5px 7px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#central{
+
+position: relative;
+
+background-color: #34495e;
+width: 750px;
+height: 1000px;
+background-repeat: repeat; 
+margin-left: 200px;
+top: 100px;
+margin-left: 150px;
+
+
+}
+h2{
+
+
+  margin-left: 250px;
+  color: white;
+}
+
+
+#img-central{
+
+position: relative;
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+background-color: #34495e;
+width: 690px;
+height: 200px;
+margin-left: 40px;
+top: 50px;
+
+
+
+
+
+}
+#img-central2{
+
+position: relative;
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+background-color: #34495e;
+width: 690px;
+height: 200px;
+margin-left: 40px;
+top: 50px;
+
+
+}
+
+#menu2{
+
+position: absolute;
+background-image: url("http://www.site-telechargement.org/wp-content/themes/st/images/content-top-bg.png");
+background-color: white;
+  top: 125px;
+  right: 10%;
+  padding: 1em;
+  width: 15%;
+  border-radius: 5px 5px 0px 0px;
+
+}
+h4 {
+    
+    width : 100px;
+    margin-left : 5px;
+    margin-top: -15px;
+  color:rgb(191, 197, 196, 0.3) transparent;
+}
+
+#contenant-menu2{
+
+position: absolute;
+background-color: #333;
+  top: 150px;
+  right: 10%;
+  padding: 1em;
+  width: 15%;
+  height: 160px;
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+#navigation{
+
+margin-top: 2px;
+  margin-left: 0px;
+}
+
+#menu3{
+position: absolute;
+background-image: url("http://www.site-telechargement.org/wp-content/themes/st/images/content-top-bg.png");
+background-color: #333;
+  top: 400px;
+  right: 10%;
+  padding: 1em;
+  width: 15%;
+  border-radius: 5px 5px 0px 0px;
+
+}
+
+#contenant-menu3{
+
+position: absolute;
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+background-color: #333;
+  top: 420px;
+  right: 10%;
+  padding: 1em;
+  width: 15%;
+  height: 550px;
+   border-radius: 0px 0px 5px 5px;
+
+}
+
+
+
+#test-area {
+     height: 200px;
+     border: 3px dashed #CCCCCC;
+     background: #FFFFFF;
+     padding: 20px;
+     cursor: url(./blank.cur), none;
+}
+#mycursor {
+     cursor: none;
+     width: 97px;
+     height: 137px;
+     background: url("/http://www.site-telechargement.org/wp-content/themes/st/images/search-btn.png") no-repeat left top;
+     position: absolute;
+     display: none;
+     top: 0;
+     left: 0;
+     z-index: 10000;
+}
+
